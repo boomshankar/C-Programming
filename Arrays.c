@@ -85,9 +85,9 @@ int main()
 	int arr[] = {1,2,3,4,5};
 	int count  = 5;
 
-//	count = insertion(arr,count);
-//	count = deletion(arr,count);
-//	searching(arr,count);
+	count = insertion(arr,count);
+	count = deletion(arr,count);
+	searching(arr,count);
 	updating(arr,count);
 	display(arr,count);
 
