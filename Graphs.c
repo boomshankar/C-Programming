@@ -5,6 +5,7 @@ novjeanj@gmail.com
 */
 
 /*
+Notes:
 G = (V,E) // V vertices , E edges
 N number of vertices
 then max number of directed edges = n(n-1)
@@ -27,26 +28,17 @@ Always run comparing number of vertices |V| O(n), rather than E as the number of
 
 time to find all nodes to an adjacent node, we would perform a linear search
 
-if
 */
 
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<conio.h>
-
-//typedef struct Edge
-//{
-//	int startVertex;  //this points to the index of the vertex list, to save memory
-//	int endVertex;
-////	int weight;
-//};
-
 #define SIZE 10
 
 int main()
 {
 	int number_of_vertices,i,j, weight;	
-	char V[SIZE] = { 'A','B','C','D','E','F','G','H','I','J' };
+	char V[SIZE] = { 'A','B','C','D','E','F','G','H','I','J' };  //should find a more efficient way
 	int E[SIZE][SIZE];
 
 	printf("\nEnter number of vertices in the graph: ");
@@ -73,9 +65,6 @@ int main()
 		}
 		printf("\n");
 	}
-
-
-
 
 	_getch();
 	return 0;
