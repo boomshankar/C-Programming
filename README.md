@@ -2,8 +2,8 @@
 Learning C and its concepts !!
 
 Contents:
-Data Structures and Algorithms
-Sorting Techniques
+Data Structures and Algorithms,
+Sorting Techniques,
 Stack and Queue
 
 Projects:
